@@ -11,7 +11,8 @@ public class GitUpdateCode {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().fullscreen();
 		driver.get("https://www.brainyquote.com/authors");
-
+		driver.getTitle();
+		driver.getCurrentUrl();
 	}
 
 }
